@@ -1,0 +1,22 @@
+# Edu-Nix || sources.list
+# --------------------------------
+# A list of package mirrors and repositories to be used by APT.
+#
+# Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
+# ----------------------------------------------------------------
+
+# Main version updates
+deb https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+
+# Security updates
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+deb-src http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+
+# Get updates BEFORE a point release
+deb https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+
+# Get updates AFTER a point release
+deb https://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware

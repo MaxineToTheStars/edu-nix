@@ -1,0 +1,13 @@
+# Edu-Nix || core.list.chroot
+# --------------------------------
+# A list of packages that provide core functionality to the live system.
+#
+# Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
+# ----------------------------------------------------------------
+
+# Packages
+live-boot
+live-config
+live-config-systemd
+sudo
+user-setup

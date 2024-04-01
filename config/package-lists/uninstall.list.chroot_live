@@ -1,0 +1,13 @@
+# Edu-Nix || uninstall.list.chroot_live
+# --------------------------------
+# A list of packages that should be removed after installation.
+#
+# Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
+# ----------------------------------------------------------------
+
+# Packages
+live-boot
+live-config
+live-config-systemd
+sudo
+user-setup

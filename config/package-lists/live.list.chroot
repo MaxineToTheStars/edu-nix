@@ -1,3 +1,9 @@
-live-boot
-live-config
-live-config-systemd
+# Edu-Nix || live.list.chroot
+# --------------------------------
+# A list of packages used in the live system.
+#
+# Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
+# ----------------------------------------------------------------
+
+# Packages
+plasma-desktop
