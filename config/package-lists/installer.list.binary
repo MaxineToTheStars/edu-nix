@@ -6,11 +6,13 @@
 # ----------------------------------------------------------------
 
 # Packages
+efibootmgr
 firmware-linux-free
 firmware-linux-nonfree
 grub-efi-amd64
 grub-efi-amd64-bin
 grub-efi-amd64-signed
+grub-firmware-qemu
 intel-microcode
 mokutil
 shim-helpers-amd64-signed
