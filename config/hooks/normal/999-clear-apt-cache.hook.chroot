@@ -1,8 +1,0 @@
-# Shebang
-#!/usr/bin/env bash
-
-# Fail on error
-set -e
-
-# Clear APT package cache
-rm --verbose --force /var/cache/apt
