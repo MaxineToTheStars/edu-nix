@@ -11,7 +11,7 @@ lb config noauto \
 --apt-recommends false \
 --apt-secure true \
 --architecture amd64 \
---archive-areas 'main contrib non-free-firmware' \
+--archive-areas 'contrib main non-free non-free-firmware' \
 --backports true \
 --binary-filesystem ext4 \
 --binary-image iso-hybrid \
