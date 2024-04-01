@@ -6,9 +6,11 @@
 # ----------------------------------------------------------------
 
 # Packages
+firmware-linux
 grub-efi-amd64
 grub-efi-amd64-bin
 grub-efi-amd64-signed
+intel-microcode
 mokutil
 shim-helpers-amd64-signed
 shim-signed

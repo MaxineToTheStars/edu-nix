@@ -6,6 +6,8 @@
 # ----------------------------------------------------------------
 
 # Packages
+firmware-linux
+intel-microcode
 live-boot
 live-config
 live-config-systemd
