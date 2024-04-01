@@ -1,7 +1,7 @@
 # Header
 #_preseed_V1
 
-# Edu-Nix || preseed.cfg
+# Edu-Nix || preseed.cfg.chroot
 # --------------------------------
 # Edu-Nix pre-installation configuration file.
 #
@@ -91,6 +91,10 @@ grub-pc grub2/force_efi_extra_removable boolean true
 d-i finish-install/reboot_in_progress note
 d-i finish-install/keep-consoles boolean true
 d-i debian-installer/exit/poweroff boolean true
+
+# Extra
+firmware-ipw2x00 firmware-ipw2x00/license/error error
+firmware-ipw2x00 firmware-ipw2x00/license/accepted boolean true
 
 # Late Preseed
 d-i preseed/late_command string \
