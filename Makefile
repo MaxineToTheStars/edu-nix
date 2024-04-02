@@ -17,7 +17,7 @@ all: install_prerequisite_packages build
 # Install prerequisite packages
 .PHONY: install_prerequisite_packages
 install_prerequisite_packages:
-	sudo apt-get install --assume-yes apt-transport-https build-essential ca-certificates curl gpg live-build make openssl wget
+	sudo apt-get install --assume-yes apt-transport-https apt-utils build-essential ca-certificates curl gpg live-build make openssl wget
 
 # Clean the build directory
 .PHONY: clean
