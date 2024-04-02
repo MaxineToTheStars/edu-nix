@@ -24,7 +24,7 @@ lb config noauto \
 --debian-installer live \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
---debootstrap-options "--include=apt-transport-https,ca-certificates,openssl --variant=minbase" \
+--debootstrap-options "--variant=minbase" \
 --distribution bookworm \
 --firmware-binary true \
 --firmware-chroot true \
