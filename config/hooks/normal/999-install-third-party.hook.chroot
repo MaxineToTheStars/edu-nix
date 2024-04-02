@@ -1,6 +1,6 @@
-# Edu-Nix || post.sh
+# Edu-Nix || 999-install-third-party.hook.chroot
 # --------------------------------
-# Crude post-installation script that downloads third party packages.
+# Chroot installation hook that installs third party packages.
 #
 # Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
 # ----------------------------------------------------------------

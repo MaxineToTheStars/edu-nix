@@ -1,4 +1,9 @@
-# GRUB boot loader configuration
+# Edu-Nix || grub
+# --------------------------------
+# GRUB boot loader configuration.
+#
+# Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
+# ----------------------------------------------------------------
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
