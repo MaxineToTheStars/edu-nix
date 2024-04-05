@@ -6,4 +6,6 @@
 # ----------------------------------------------------------------
 
 # Packages
+kwin-wayland
+kwin-x11
 plasma-desktop

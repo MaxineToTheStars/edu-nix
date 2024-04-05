@@ -1,4 +1,4 @@
-# Edu-Nix || 999-install-third-party.hook.chroot
+# Edu-Nix || 998-install-third-party.hook.chroot
 # --------------------------------
 # Chroot installation hook that installs third party packages.
 #

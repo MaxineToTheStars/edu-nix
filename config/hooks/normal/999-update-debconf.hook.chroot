@@ -1,0 +1,15 @@
+# Edu-Nix || 999-update-debconf.hook.chroot
+# --------------------------------
+# Chroot installation hook that updates debconf.
+#
+# Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
+# ----------------------------------------------------------------
+
+# Shebang
+#!/usr/bin/env bash
+
+# Fail on error
+set -e
+
+# Update dconf
+dconf update
