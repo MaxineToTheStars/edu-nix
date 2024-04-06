@@ -27,12 +27,14 @@ lb config noauto \
 --bootloaders grub-efi \
 --cache false \
 --checksums none \
+--chroot-filesystem squashfs \
 --clean \
 --color \
 --debconf-frontend noninteractive \
 --debian-installer live \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
+--debian-installer-preseedfile config/includes.installer/pressed.cfg \
 --debootstrap-options "--arch=amd64 --include=apt-transport-https,apt-utils,ca-certificates,curl,gpg,wget --variant=minbase" \
 --distribution bookworm \
 --firmware-binary true \
@@ -46,11 +48,18 @@ lb config noauto \
 --iso-volume Edu-Nix \
 --linux-packages "linux-image linux-headers" \
 --memtest memtest86+ \
+--mirror-binary https://deb.debian.org/debian/ \
+--mirror-binary-security https://security.debian.org/debian-security \
 --parent-archive-areas "contrib main non-free non-free-firmware" \
 --parent-debian-installer-distribution bookworm \
 --parent-distribution bookworm \
+--parent-distribution-binary bookworm \
 --security true \
 --source false \
---system normal \
+--system live \
+--uefi-secure-boot disable \
 --updates true \
---win32-loader true \
+--win32-loader true
+
+# ???
+"${@}"
