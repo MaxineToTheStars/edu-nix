@@ -1,6 +1,6 @@
-# Edu-Nix || 999-update-debconf.hook.chroot
+# Edu-Nix || build.sh
 # --------------------------------
-# Chroot installation hook that updates debconf.
+# Automation script for building the Edu-Nix ISO.
 #
 # Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
 # ----------------------------------------------------------------
@@ -9,7 +9,7 @@
 #!/usr/bin/env bash
 
 # Fail on error
-#set -e
+set -e
 
-# Update dconf
-#dconf update
+# Build
+lb build noauto "${@}" 2>&1 | tee build.log
