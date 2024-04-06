@@ -34,7 +34,6 @@ lb config noauto \
 --debian-installer live \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
---debian-installer-preseedfile config/includes.installer/pressed.cfg \
 --debootstrap-options "--arch=amd64 --include=apt-transport-https,apt-utils,ca-certificates,curl,gpg,wget --variant=minbase" \
 --distribution bookworm \
 --firmware-binary true \
