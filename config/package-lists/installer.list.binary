@@ -11,5 +11,4 @@ firmware-linux-free
 firmware-linux-nonfree
 grub-efi-amd64
 grub-firmware-qemu
-grub-pc
 intel-microcode

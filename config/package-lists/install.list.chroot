@@ -6,6 +6,10 @@
 # ----------------------------------------------------------------
 
 # Packages
+firmware-linux-free
+firmware-linux-nonfree
+intel-microcode
 kwin-wayland
 kwin-x11
 plasma-desktop
+systemd

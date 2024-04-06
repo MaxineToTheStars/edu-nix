@@ -25,7 +25,7 @@ lb config noauto \
 --binary-filesystem ext4 \
 --binary-image iso-hybrid \
 --bootappend-live "boot=config live splash" \
---bootloaders "grub-efi grub-pc" \
+--bootloaders grub-efi \
 --cache false \
 --checksums none \
 --clean \
@@ -55,6 +55,3 @@ lb config noauto \
 --system normal \
 --updates true \
 --win32-loader true \
-
-
-
