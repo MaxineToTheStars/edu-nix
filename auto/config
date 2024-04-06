@@ -11,7 +11,6 @@
 # Fail on error
 set -e
 
-
 # Configure and bootstrap
 lb config noauto \
 --apt apt-get \
@@ -31,7 +30,7 @@ lb config noauto \
 --clean \
 --color \
 --debconf-frontend noninteractive \
---debian-installer netinst \
+--debian-installer live \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
 --debootstrap-options "--arch=amd64 --include=apt-transport-https,apt-utils,ca-certificates,curl,gpg,wget --variant=minbase" \
@@ -39,7 +38,7 @@ lb config noauto \
 --firmware-binary true \
 --firmware-chroot true \
 --image-name edu-nix-installer \
---initramfs none \
+--initramfs live-boot \
 --initsystem systemd \
 --interactive false \
 --iso-application Edu-Nix-Installer \
