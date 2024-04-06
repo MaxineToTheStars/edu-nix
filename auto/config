@@ -31,7 +31,7 @@ lb config noauto \
 --clean \
 --color \
 --debconf-frontend noninteractive \
---debian-installer cdrom \
+--debian-installer netinst \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
 --debootstrap-options "--arch=amd64 --include=apt-transport-https,apt-utils,ca-certificates,curl,gpg,wget --variant=minbase" \
