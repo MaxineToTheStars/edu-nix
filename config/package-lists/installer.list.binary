@@ -6,19 +6,9 @@
 # ----------------------------------------------------------------
 
 # Packages
-debconf
-efibootmgr
 firmware-linux-free
 firmware-linux-nonfree
-grub-efi-amd64
-grub-efi-amd64-bin
-grub-efi-amd64-signed
 grub-firmware-qemu
-grub-installer
+grub-pc
 intel-microcode
 mokutil
-psmisc
-shim-helpers-amd64-signed
-shim-signed
-shim-signed-common
-shim-unsigned
