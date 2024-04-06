@@ -17,7 +17,7 @@ lb config noauto \
 --apt apt-get \
 --apt-indices false \
 --apt-recommends false \
---apt-secure true \
+--apt-secure false \
 --apt-source-archives true \
 --architecture amd64 \
 --archive-areas "contrib main non-free non-free-firmware" \
