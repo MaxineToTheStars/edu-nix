@@ -6,6 +6,7 @@
 # ----------------------------------------------------------------
 
 # Packages
+dpkg
 efibootmgr
 firmware-linux-free
 firmware-linux-nonfree
