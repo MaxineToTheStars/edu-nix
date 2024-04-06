@@ -5,6 +5,10 @@
 # Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
 # ----------------------------------------------------------------
 
+# FTP alternative
+deb https://ftp.us.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb-src https://ftp.us.debian.org/debian bookworm main contrib non-free non-free-firmware
+
 # Main version updates
 deb https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
 deb-src https://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
