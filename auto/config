@@ -31,7 +31,7 @@ lb config noauto \
 --clean \
 --color \
 --debconf-frontend noninteractive \
---debian-installer live \
+--debian-installer cdrom \
 --debian-installer-distribution bookworm \
 --debian-installer-gui true \
 --debootstrap-options "--arch=amd64 --include=apt-transport-https,apt-utils,ca-certificates,curl,gpg,wget --variant=minbase" \
@@ -39,7 +39,7 @@ lb config noauto \
 --firmware-binary true \
 --firmware-chroot true \
 --image-name edu-nix-installer \
---initramfs live-boot \
+--initramfs none \
 --initsystem systemd \
 --interactive false \
 --iso-application Edu-Nix-Installer \
@@ -55,7 +55,7 @@ lb config noauto \
 --parent-distribution-binary bookworm \
 --security true \
 --source false \
---system live \
+--system normal \
 --uefi-secure-boot disable \
 --updates true \
 --win32-loader true
