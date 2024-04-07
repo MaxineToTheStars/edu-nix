@@ -1,6 +1,6 @@
-# Edu-Nix || 998-install-third-party.hook.chroot
+# Edu-Nix || extra.sh
 # --------------------------------
-# Chroot installation hook that installs third party packages.
+# Bash-script that installs third party packages.
 #
 # Authors: @MaxineToTheStars <https://github.com/MaxineToTheStars>
 # ----------------------------------------------------------------
@@ -10,6 +10,10 @@
 
 # Fail on error
 set -e
+
+# Download needed packages
+apt-get update
+apt-get install --assume-yes curl gpg sudo wget
 
 # Add VSCode repository
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
