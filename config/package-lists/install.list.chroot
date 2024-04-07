@@ -6,6 +6,7 @@
 # ----------------------------------------------------------------
 
 # Packages
+busybox
 firmware-linux-free
 firmware-linux-nonfree
 intel-microcode

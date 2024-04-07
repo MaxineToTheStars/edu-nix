@@ -25,7 +25,7 @@ lb config noauto \
 --binary-image iso-hybrid \
 --bootappend-live "boot=config live splash" \
 --bootloaders grub-efi \
---cache false \
+--cache true \
 --checksums none \
 --chroot-filesystem squashfs \
 --clean \
